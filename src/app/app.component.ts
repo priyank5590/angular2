@@ -11,5 +11,4 @@ import { HomeComponent } from './home/home.component';
 
 export class AppComponent {
   title = 'app works!';
-  message = 'Hi there my nanme is priyank!!!!';
 }

@@ -1,8 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
 body{
-	background-color: #ccc;
-
+	overflow: hidden;
 }
-h1{
-	font-size: 50px;
+
+.title h1 {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+header {
+background-color: #4c3a3a;
+    color: #fff;
+    border-bottom: solid 5px #ee3f02;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    color: #fff;
+    padding: 18px 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+
+header ul li a:hover,
+header ul li a:focus,
+header ul li a:active {
+    background-color: #ee3f02;
+    transition: ease 0.2s;
+    color: #333;
+    text-decoration: none;
+    color: #fff;
+}
+header nav {
+    text-align: right;
+}
+header .logo {
+    padding: 10px 0px;
+    font-size: 25px;
+    color: #fff;
+}
+
+header .logo i {
+    padding-right: 10px;
+    color: #ee3f02;
 }
